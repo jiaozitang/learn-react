@@ -1,4 +1,5 @@
 import React from './react'
+import ReactDOM from './react/react-dom'
 
 const ele = (
     <div className='box' onClick={() => console.log('click')}>
@@ -8,3 +9,4 @@ const ele = (
 )
 
 console.log(ele)
+ReactDOM.render(ele, document.querySelector('#root'))
