@@ -7,6 +7,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 (function (global, factory) {
+  console.log('hello world')
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
   typeof define === 'function' && define.amd ? define(['exports'], factory) :
   (global = global || self, factory(global.React = {}));
